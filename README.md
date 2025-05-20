@@ -1,7 +1,3 @@
-Com base no PDF do projeto e no circuito `projeto_mips_pipeline.circ`, aqui está o relatório detalhado adaptado ao seu projeto atual:
-
----
-
 # 📝 Relatório sobre o Funcionamento do Circuito e Implementação das Instruções – Projeto MIPS Pipeline
 
 ## 1. Introdução

@@ -8,7 +8,7 @@ Este relatório descreve a arquitetura, o funcionamento e as extensões feitas n
 
 ## 2. Estrutura Geral do Circuito
 
-O circuito `projeto_mips_pipeline.circ` é estruturado segundo o modelo de pipeline clássico de 5 estágios, com os seguintes componentes principais:
+O circuito foi estruturado segundo o modelo de pipeline clássico de 5 estágios, com os seguintes componentes principais:
 
 * **Banco de Registradores (BR)**: Armazena temporariamente valores intermediários e operacionais.
 * **Memória de Dados (MD)**: Usada para leitura e escrita via instruções `LW` e `SW`.

@@ -139,4 +139,3 @@ A expansão do processador MIPS pipeline contemplou nove novas instruções e t�
 
 ---
 
-Se quiser, posso gerar esse relatório em `.pdf` ou `.docx`. Deseja isso?

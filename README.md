@@ -135,7 +135,7 @@ Foram adicionadas nove instruções ao processador, com suporte completo à dete
 
 ## 5. Conclusão
 
-A expansão do processador MIPS pipeline contemplou nove novas instruções e técnicas completas de forwarding e stalling. O circuito tornou-se significativamente mais robusto, suportando desvios complexos, operações lógicas e comparações. Com isso, o processador é capaz de executar programas mais realistas e diversos, respeitando o comportamento esperado de uma arquitetura MIPS funcional e eficiente.
+A expansão do processador MIPS pipeline contemplou nove novas instruções e técnicas de forwarding e stalling. O circuito tornou-se significativamente mais robusto, suportando desvios complexos, operações lógicas e comparações. Com isso, o processador é capaz de executar programas mais realistas e diversos, respeitando o comportamento esperado de uma arquitetura MIPS funcional e eficiente.
 
 ---
 

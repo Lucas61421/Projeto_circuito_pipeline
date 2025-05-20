@@ -1,0 +1,58 @@
+# Inicialização
+ADDI $1, $0, 10
+ADDI $2, $0, 20
+ADDI $3, $0, 5
+
+# Operações lógicas
+AND  $4, $1, $2
+OR   $5, $1, $2
+
+# Comparação
+SLT  $6, $1, $2
+SLTI $7, $2, 25
+
+# Deslocamentos
+SLL  $8, $3, 2
+SLR  $9, $8, 1
+
+# Desvio condicional
+BEQ  $1, $1, skip
+NOP
+NOP
+
+skip:
+BNE  $1, $2, skip2
+NOP
+NOP
+
+# JUMP e JAL
+JAL  jump_dest
+NOP
+
+ADDI $10, $0, 100
+
+jump_dest:
+ADD  $11, $1, $3
+
+# JR (salto indireto)
+ADDI $31, $0, retJR
+JR   $31
+NOP
+
+ADDI $12, $0, 255
+
+retJR:
+SUB  $13, $2, $1
+
+# LW / SW com hazard
+SW   $1, 0($0)
+LW   $14, 0($0)
+ADD  $15, $14, $3
+
+LW   $16, 0($0)
+ADDI $17, $16, 1
+
+J end
+NOP
+
+end:
